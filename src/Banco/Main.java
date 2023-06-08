@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package Banco;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -6,7 +7,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Cuenta cuenta1 = new Cuenta(2, 150);
         int opcion;
         int numero_cuentas;
         int numero_cuenta;
